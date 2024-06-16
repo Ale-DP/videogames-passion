@@ -1,0 +1,23 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Pixelify+Sans:wght@400..700&display=swap');
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Basic project styles */
+    color: #252525;
+    font-family: "Averia Sans Libre", sans-serif;
+}
+h1{
+    font-family: "Pixelify Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#2f0869;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit
+}
