@@ -19,13 +19,51 @@
     </header>
 
     <div class="menu">
-        <a href="#home">Home</a>
-        <a href="#contact">Contact</a>
-        <a href="#gallery">Gallery</a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#gallery">Gallery</a>
+       </nav>       
     </div>
     
     <!-- Main content -->
     <main>
+        <section id="contactme">
+           
+            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+           
+                <h2> <i class="fa-duotone fa-gamepad"></i>Stay curious!!  
+                </h2>
+                      
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label> 
+                <input type="text" name="last-name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email-address" id="email-address" class="text-input" required>
+                <br>
+
+                <div class="radio-buttons">
+                    <div>
+                        <label for="platform">PS5</label>
+                        <input type="radio" name="platform_type" id="ps5" value="ps5" required checked>
+                    </div>
+                    <div>
+                        <label for="platform">XBOX</label>
+                        <input type="radio" name="platform_type" id="xbox" value="xbox">
+                    </div>
+                    <div>
+                        <label for="platform">PC</label>
+                        <input type="radio" name="platform_type" id="pc" value="pc">
+                    </div>
+                    
+                </div>                
+            <button type="submit" class="contact-button">Let's Play!</button>
+            </form> 
+        </section> 
+        
         
     </main>
     
