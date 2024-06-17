@@ -53,6 +53,14 @@ main {
    
 }
 
+/* Landing page */
+#gamers {
+    height: 500px;
+    width: 100%;
+    background: url("../images/family-playing-fun.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
 /* Footer */
 footer {
     #social-networks {
