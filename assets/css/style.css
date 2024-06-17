@@ -18,16 +18,39 @@ h1{
     display: flex;
     justify-content: center;
 }
+header {
+    background-color: #bbafca;
+}
 
 header a {
     text-decoration: none;
     color: inherit
 }
 
+/* Horizontal Menu */
+div.menu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.menu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.menu a:hover {
+    background-color: #777;
+  }
+
 /* Main content */
 main {
     /* Place footer down */
     flex: 1 0 auto;
+   
 }
 
 /* Footer */
@@ -37,6 +60,8 @@ footer {
         display: flex;
         align-items: flex-end;
         justify-content: space-evenly;
+        list-style-type: none;
+        background-color: rgb(217, 150, 150);
 
     }
 
