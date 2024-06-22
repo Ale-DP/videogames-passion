@@ -61,13 +61,13 @@ div.menu {
 main {
     /* Place footer down */
     flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
+    background-color: #bbafca;
    
 }
+
 /* Form */
 #contactme {
     background: url("../images/play.jpg");
@@ -111,13 +111,18 @@ main {
 }
 
 #join-us {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: lightgray;
+    background: url("../images/background.jpg") no-repeat center/cover;
     padding: 1em 0.5em;
+    opacity: 0.8;
 }
 
+#join-us h2, #join-us h3 {
+    color: white;
+}
+
+.space ul {
+    color: white;
+}
 
 /* Landing page */
 #gamers {
@@ -136,6 +141,7 @@ main {
     line-height: 0;
 }
 
+
 #about-us {
     background-color: #bbafca;
     padding: 1em 0.5em;
@@ -144,7 +150,20 @@ main {
 .space {
     padding-top: 10px;
     padding-bottom: 10px;
+} 
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* Gallery */
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
 }
+
+
 /* Footer */
 footer {
     #social-networks {
