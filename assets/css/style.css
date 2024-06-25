@@ -16,7 +16,11 @@ body {
     /* Basic project styles */
     color: #252525;
     font-family: "Averia Sans Libre", sans-serif;
+    max-width: 2150px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 h1{
     font-family: "Pixelify Sans", sans-serif;
     text-transform: uppercase;
@@ -108,14 +112,14 @@ main {
     border-radius: 2px;
     padding: 10px 30px;
     font-size: 100%;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     color: #fafafa;
 }
 
 #join-us {
     background: url("../images/background.jpg") no-repeat center/cover;
     padding: 3em;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 #join-us h2, #join-us h3 {
@@ -149,6 +153,9 @@ main {
 #about-us {
     background-color: #bbafca;
     padding: 1em 0.5em;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .space {
