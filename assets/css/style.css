@@ -140,17 +140,18 @@ main {
     width: 100%; 
     min-height: 200px;   
 }
-/*
+
 #play-together {
-    height: 90vw;
-    width: 90vw;
+    background: url("../images/father-and-son.jpg") no-repeat center/cover ;
+    height: 300px;
+    width: 300px;
     margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
-*/
+
 
 /* Gallery page */
 #photos img {
