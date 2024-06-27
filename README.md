@@ -6,23 +6,26 @@ And this is annoying and frustrating, so imagine if you can count on a group of 
 
 The purpose of Videogames Passion is to know people, share interests, favourite games and plan together games online, to limit the risk to be matched casually with someone with different intent.
 
-Features
-Navigation Menu
+# Features
 
-Home Page
+# Navigation Menu
 
-Contact Page
+# Home Page
 
-Gallery Page
+# Contact Page
 
-Footer
+# Gallery Page
+
+# Footer
 
 Footer section is styled with icons linked to the most relevant social media sites. Links brings you to a new tab to allow easy navigation for the user.
 This section it's important to encoureges users to get in touch and stay connected via social media in order to build strong relationship.
 
-Media
+# Media
+
 Icons in the footer were taken from https://fontawesome.com/
 Pictures are from https://unsplash.com/it
 
-Testing
-Browsers and validator
+# Testing
+
+Validation of HTML/CSS, Lighthouse Audits, other browser
