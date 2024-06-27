@@ -73,11 +73,11 @@ This section it's important to encoureges users to get in touch and stay connect
 
 [CSS Validator link](https://jigsaw.w3.org/css-validator/)
 
-
+![Screenshot from CSS Validator](assets/media/css-validation.png)
 
 - Testing has been carried out on the following browsers :
     - Chrome Version 126.0.6478.127 (Official Build) (arm64)
     - Firefox Version 126.0.1 (64 bit)
     - Safari on macOS Sonoma 14.5 (Safari Version 17.5)
 
-Validation of HTML/CSS, Lighthouse Audits, other browser
+- Lighthouse Audits
