@@ -64,6 +64,8 @@ This section it's important to encoureges users to get in touch and stay connect
 
 [HTML Validator link](https://validator.w3.org/)
 
+![Screenshot from HTML Validator for the home page](assets/media/home-html-validation.png)
+
 [CSS Validator link](https://jigsaw.w3.org/css-validator/)
 
 - Testing has been carried out on the following browsers :
