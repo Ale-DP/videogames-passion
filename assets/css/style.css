@@ -73,7 +73,7 @@ main {
 
 /* Form */
 #contactme {
-    background: url("../images/play.jpg");
+    background: url("../images/play.webp");
     background-size: cover;
     width: 100%;    
 }
@@ -118,7 +118,7 @@ main {
 }
 
 #join-us {
-    background: url("../images/background.jpg") no-repeat center/cover;
+    background: url("../images/background.webp") no-repeat center/cover;
     padding: 3em;
     opacity: 0.7;
 }
@@ -133,7 +133,7 @@ main {
 
 /* Landing page */
 #gamers {
-    background: url("../images/pads.jpg") no-repeat center fixed;
+    background: url("../images/pads.webp") no-repeat center fixed;
     background-size: cover;
     height: 30vh;
     max-height: 700px;
@@ -142,7 +142,7 @@ main {
 }
 
 #play-together {
-    background: url("../images/father-and-son.jpg") no-repeat center/cover ;
+    background: url("../images/father-and-son.webp") no-repeat center/cover ;
     min-height: 300px;
     min-width: 300px;
     width: 90%;
@@ -228,13 +228,63 @@ main {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
+    header {
+        font-size: 650%;
+    }
+
+    #about-us {
+        font-size: 300%;
+        margin-bottom: 15px;
+    }
+
+    #contact-form {
+        width: 1000px;
+        min-height: 400px;
+        padding-top: 2em;
+        font-size: 150%;
+    }
+
+    
+
+    #play-together {
+        height: 500px;
+        width: 500px;
+    }
+
+    .text-input {
+        height: 80px;
+        font-size: 100%;
+    }
+
+    #join-us {
+        font-size: 350%;
+    }
+    
+    .space li {
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        font-size: 350%;
+    }
+
+    footer {
+        font-size: 300%;
+    }
+
+
     /* Gallery */
     #photos {
         column-count: 2;
         column-gap: 0;
     }
-    
+
+    /* Make main element take up any surplus space to push footer down */
+    main {
+        flex: 1 0 auto;
+    }
 }
+
 
 
 /* Footer */
@@ -254,4 +304,6 @@ footer {
         padding: 5%;
         color: #de0f0f;
         }
-    }
+
+}
+    
