@@ -66,7 +66,14 @@ This section it's important to encoureges users to get in touch and stay connect
 
 ![Screenshot from HTML Validator for the home page](assets/media/home-html-validation.png)
 
+![Screenshot from HTML Validator for the contact page](assets/media/contact-html-validation.png)
+
+![Screenshot from HTML Validator for the gallery page](assets/media/gallery-html-validation.png)
+    - Gallery shows a warning but a section is more accurate than another div or heading not required here
+
 [CSS Validator link](https://jigsaw.w3.org/css-validator/)
+
+
 
 - Testing has been carried out on the following browsers :
     - Chrome Version 126.0.6478.127 (Official Build) (arm64)

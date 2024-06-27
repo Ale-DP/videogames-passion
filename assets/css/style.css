@@ -283,7 +283,7 @@ main {
     main {
         flex: 1 0 auto;
     }
-}
+
 
 
 
@@ -305,5 +305,6 @@ footer {
         color: #de0f0f;
         }
 
-}
+    }
     
+}
