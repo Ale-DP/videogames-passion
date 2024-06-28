@@ -288,7 +288,7 @@ main {
 }
 
 /* Footer */
-footer {
+
     #social-networks {
         align-content: flex-end;
         display: flex;
@@ -305,5 +305,5 @@ footer {
         color: #de0f0f;
         }
 
-    }
+    
     
