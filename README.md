@@ -71,6 +71,8 @@ This section it's important to encoureges users to get in touch and stay connect
 
 # Testing
 
+![Screenshot of the table with a summary of the tests](assets/media/testing-table.png)
+
 - Validator Testing : 
 
 [HTML Validator link](https://validator.w3.org/)
@@ -84,14 +86,20 @@ This section it's important to encoureges users to get in touch and stay connect
 
 [CSS Validator link](https://jigsaw.w3.org/css-validator/)
 
-![Screenshot from CSS Validator](assets/media/css-validation.png)
+![Screenshot from CSS Validator](assets/media/css-validation-pass.png)
 
 - Testing has been carried out on the following browsers :
     - Chrome Version 126.0.6478.127 (Official Build) (arm64)
     - Firefox Version 126.0.1 (64 bit)
     - Safari on macOS Sonoma 14.5 (Safari Version 17.5)
 
-- Lighthouse Audits
+- Lighthouse Audits performed from Google Chrome inspector on all 3 pages:
+
+![Screenshot of Lighthouse score on home page](assets/media/lighthouse-score-home.png)
+
+![Screenshot of Lighthouse score on contact page](assets/media/lighthouse-score-contact.png)
+
+![Screenshot of Lighthouse score on gallery page](assets/media/lighthouse-score-gallery.png)
 
 # Deployment
 - How this site was deployed
