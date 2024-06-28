@@ -23,14 +23,25 @@ The purpose of Videogames Passion is to know people, share interests, favourite 
 - Home page has a dinamic image of controllers below the navbar. Then the section "About Us " want to transmits a sort of reliabilty on who we are and what we offer, encouraging people to join us.
 - The square image with rounded corners above the footer shows happiness playing together, even for a father with his son.
 
+![Screenshot of the home page](assets/media/home.png)
+
+![Screenshot of the home page showing footer and second image](assets/media/footer.png)
+
 # Contact Page
 
 - Contact page wants to attract with the 2 images with strong colors and a form with an attractive citation where you can share your details and your favourite platform.
 - The button is styled with more contrast to get over the form, and the following "Join Us " section want to encourage people to be interactive and have their own group for whatever game they love to play together.
 
+![Screenshot of the contact page](assets/media/contact.png)
+
+![Screenshot of the list in the contact page](assets/media/footer2.png)
+
 # Gallery Page
 
-- The gallery is a list of attractive picture with strong colors showing different platforms and that the community is for all.
+- The gallery is a list of attractive picture with strong colors showing different platforms and that the community is for all. A single column on smaller screen and 2 column on larger screen.
+
+![Screenshot of the home page](assets/media/gallery.png)
+
 
 # Footer
 
@@ -81,3 +92,21 @@ This section it's important to encoureges users to get in touch and stay connect
     - Safari on macOS Sonoma 14.5 (Safari Version 17.5)
 
 - Lighthouse Audits
+
+# Deployment
+- How this site was deployed
+
+In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu
+
+From the source section drop-down menu, select the Master Branch
+
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+
+Any changes pushed to the master branch will take effect on the live project
+
+# How to clone the repository
+
+- Go to the https://github.com/Ale-DP/videogames-passion/deployments/github-pages repository on GitHub
+- Click the "Code" button to the right of the screen, click HTTPs and copy the link there
+- Open a GitBash terminal and navigate to the directory where you want to locate the clone
+- On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
